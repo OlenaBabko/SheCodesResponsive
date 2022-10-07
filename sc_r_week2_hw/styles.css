@@ -1,0 +1,94 @@
+:root {
+    --primary-color: #6200ff;
+    --shadow: #999999;
+    --secondary-color: #d3fdfd;
+}
+
+.content {
+    text-align: center;
+    margin: 150px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 40px;
+    margin: 40px;
+}
+
+h3, h4 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.aboutMeButton,
+.contactMeButton,
+.weatherAppButton,
+.succulentAppButton,
+.cvPageButton {
+    display: block;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 15px 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px var(--shadow);
+    transition: all 200ms ease-in-out;
+}
+.aboutMeButton:hover,
+.contactMeButton:hover,
+.weatherAppButton:hover,
+.succulentAppButton:hover,
+.cvPageButton:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: white;
+}
+.rowButtons a {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--primary-color);
+}
+.rowButtons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.container a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.about {
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    padding: 30px 30px;
+}
+.colomn {
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--shadow);
+    background: var(--secondary-color);
+    padding: 20px;
+    /* flex: 1; */
+    font-size: 18px;
+}
+
+.title {
+    text-align: center;
+    font-style: bold;
+}
